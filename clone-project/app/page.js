@@ -1,9 +1,11 @@
 import Image from "next/image";
 
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
-  return(
+  return (
     <main>
-      <h1>Accredian enterprise - clone</h1>
+      <Navbar />
     </main>
   );
 }
