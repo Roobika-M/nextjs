@@ -17,7 +17,7 @@ export default function Hero() {
             and industry-ready programs.
           </p>
 
-          <div className="flex gap-4 flex-wrap mb-8 text-sm text-black">
+          <div className="flex gap-4 flex-wrap mb-8 text-sm text-grey-600">
             <span>✔ Tailored Solutions</span>
             <span>✔ Industry Insights</span>
             <span>✔ Expert Guidance</span>
