@@ -5,7 +5,7 @@ This project is a partial clone of the Accredian Enterprise landing page
 ## Live Demo
 
 Deployed on Vercel:
-[Your Vercel Link Here]
+https://nextjs-5idq-roobika-ms-projects.vercel.app/
 
 ---
 
