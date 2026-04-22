@@ -20,8 +20,8 @@ export default function Features() {
   return (
     <section className="px-8 py-20 bg-[#f8fafc]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-4 text-blue-600">
-          Why Choose Accredian?
+        <h2 className="text-4xl font-bold text-center mb-4 text-black">
+          Why Choose <span className="text-blue-600">Accredian ?</span> 
         </h2>
 
         <p className="text-center text-gray-600 mb-12">

@@ -16,8 +16,8 @@ export default function Stats() {
 
   return (
     <section className="px-8 py-20 bg-white">
-      <h2 className="text-4xl font-bold text-center mb-4 text-blue-600">
-        Our Track Record
+      <h2 className="text-4xl font-bold text-center mb-4 text-black">
+        Our <span className="text-blue-600">Track Record</span>
       </h2>
 
       <p className="text-center text-gray-600 mb-12">
