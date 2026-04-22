@@ -27,7 +27,7 @@ export default function Features() {
         {features.map((item, index) => (
           <div
             key={index}
-            className="p-6 rounded-xl shadow-md border bg-white"
+            className="p-6 rounded-xl shadow-md border bg-white text-blue-600"
           >
             <h3 className="text-xl font-semibold mb-4">
               {item.title}
