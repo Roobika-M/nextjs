@@ -18,25 +18,32 @@ export default function Features() {
   ];
 
   return (
-    <section className="px-8 py-20">
-      <h2 className="text-4xl font-bold text-center mb-12">
-        Why Choose Accredian?
-      </h2>
+    <section className="px-8 py-20 bg-[#f8fafc]">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold text-center mb-4 text-blue-600">
+          Why Choose Accredian?
+        </h2>
 
-      <div className="grid md:grid-cols-3 gap-8">
-        {features.map((item, index) => (
-          <div
-            key={index}
-            className="p-6 rounded-xl shadow-md border bg-white text-blue-600"
-          >
-            <h3 className="text-xl font-semibold mb-4">
-              {item.title}
-            </h3>
-            <p className="text-gray-600">
-              {item.description}
-            </p>
-          </div>
-        ))}
+        <p className="text-center text-gray-600 mb-12">
+          We help enterprises build stronger, smarter teams.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-8 text-blue-600">
+          {features.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white p-8 rounded-2xl shadow-sm border hover:shadow-md transition"
+            >
+              <h3 className="text-xl font-semibold mb-4">
+                {item.title}
+              </h3>
+
+              <p className="text-gray-600 leading-relaxed">
+                {item.description}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
