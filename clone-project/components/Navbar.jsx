@@ -1,11 +1,11 @@
 export default function Navbar() {
   return (
-    <nav className="w-full px-8 py-4 flex justify-between items-center shadow-sm">
-      <h1 className="text-2xl font-bold text-blue-600">
-        Accredian
+    <nav className="w-full px-10 py-5 bg-white shadow-sm flex justify-between items-center">
+      <h1 className="text-3xl font-bold text-blue-600">
+        accredian
       </h1>
 
-      <div className="flex gap-6">
+      <div className="flex gap-8 font-medium">
         <a href="#" className="hover:text-blue-600">
           Home
         </a>
@@ -20,8 +20,8 @@ export default function Navbar() {
         </a>
       </div>
 
-      <button className="bg-blue-600 text-white px-5 py-2 rounded-lg">
-        Get Started
+      <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium">
+        Enquire Now
       </button>
     </nav>
   );
