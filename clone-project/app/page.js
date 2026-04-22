@@ -6,6 +6,7 @@ import Features from "@/components/Features";
 import Stats from"@/components/Stats";
 import Testi from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import Lead from "@/components/Leadform";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Stats />
       <Features />
       <Testi />
+      <Lead />
       <Footer />
     </main>
   );
